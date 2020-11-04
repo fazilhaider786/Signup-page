@@ -1,2 +1,47 @@
 # Signup-page
-&lt;!DOCTYPE html> &lt;html lang="en" dir="ltr">   &lt;head>     &lt;meta charset="utf-8">     &lt;title>Sign up Page&lt;/title>   &lt;/head>   &lt;body>      &lt;h1>Course Sign Up Page&lt;/h1>     &lt;form action="thankyou.html" method="get">       &lt;p>Please Note: First Name, Last Name, Password, and Email are required&lt;/p>       &lt;label for="First Name">First Name:&lt;/label>       &lt;input id="First Name" type="text" name="" placeholder="First Name" required>        &lt;label for="Last Name">Last Name:&lt;/label>       &lt;input id = "Last Name" type="text" name="" placeholder="Last Name"required>       &lt;p>&lt;/p>        &lt;label for="Email">Email:&lt;/label>       &lt;input id="Email" type="Email" name="" placeholder="name@email.com">        &lt;label for="Password">Password:&lt;/label>       &lt;input type="password" id="pass" >        &lt;p>Are you over the age of 18?&lt;/p>       &lt;label for="Yes">Yes:&lt;/label>       &lt;input type="radio" name="Over18" id="yes" value="yesOver">        &lt;label for="No">No:&lt;/label>       &lt;input type="radio" name="Over18" id="No" value="noOver">        &lt;p>Do you have a Credit Card or PayPal?&lt;/p>       &lt;select name="Payment">         &lt;option value="cc">Credit Card&lt;/option>         &lt;option value="pp">Paypal&lt;/option>       &lt;/select>        &lt;p>&lt;/p>        &lt;input type="submit" name="" value="Sign Up">    &lt;/form>     &lt;/body> &lt;/html>
+     <!DOCTYPE html>
+     <html lang="en" dir="ltr">
+     <head>
+     <meta charset="utf-8">
+    <title>Sign up Page</title>
+     </head>
+     <body>
+
+    <h1>Course Sign Up Page</h1>
+    <form action="thankyou.html" method="get">
+      <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+      <label for="First Name">First Name:</label>
+      <input id="First Name" type="text" name="" placeholder="First Name" required>
+
+      <label for="Last Name">Last Name:</label>
+      <input id = "Last Name" type="text" name="" placeholder="Last Name"required>
+      <p></p>
+
+      <label for="Email">Email:</label>
+      <input id="Email" type="Email" name="" placeholder="name@email.com">
+
+      <label for="Password">Password:</label>
+      <input type="password" id="pass" >
+
+      <p>Are you over the age of 18?</p>
+      <label for="Yes">Yes:</label>
+      <input type="radio" name="Over18" id="yes" value="yesOver">
+
+      <label for="No">No:</label>
+      <input type="radio" name="Over18" id="No" value="noOver">
+
+      <p>Do you have a Credit Card or PayPal?</p>
+      <select name="Payment">
+        <option value="cc">Credit Card</option>
+        <option value="pp">Paypal</option>
+      </select>
+
+      <p></p>
+
+      <input type="submit" name="" value="Sign Up">
+
+  </form>
+
+
+  </body>
+</html>
