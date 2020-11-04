@@ -1,11 +1,11 @@
 # Signup-page
-     <!DOCTYPE html>
-     <html lang="en" dir="ltr">
-     <head>
-     <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <title>Sign up Page</title>
-     </head>
-     <body>
+  </head>
+  <body>
 
     <h1>Course Sign Up Page</h1>
     <form action="thankyou.html" method="get">
